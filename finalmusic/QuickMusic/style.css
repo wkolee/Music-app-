@@ -1,0 +1,88 @@
+html{
+    height: 100%;
+    width: 100%;
+    border: 0;
+    margin: 0;
+}
+body{
+	background-color: red;
+}
+#holder{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom:0;
+	overflow-x: hidden;
+}
+#app{
+	text-align: center;
+	position: absolute;
+	width: 50%;
+	height: 97%;
+	border-radius: 0.5rem;
+	border: 1px solid black;
+	margin: auto;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	background: radial-gradient(gray, black);
+}
+#pictureFrame{
+	position: absolute;
+	bottom: 0.5%;
+	left: 0;
+	right: 0;
+	margin: auto;	
+	height: 74%;
+	width: 95%;	
+	border: 1px solid gray;
+	border-radius: 0.5rem;
+	background-color: black;
+}
+#controlsFrame{
+    position: absolute;
+    height: 23%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    //border: 5px solid white;
+}
+#controls{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+    bottom: 0;
+	margin: auto;	
+	height: 100%;
+	width: 95%;	
+	border: 1px solid gray;
+	border-radius: 0.5rem;
+	background-color: black;
+    overflow-y: hidden;
+}
+#songTitle{
+	color: white;
+    height: 3%;
+    padding: 0.5%;
+    font-size: 1.15rem;     
+}
+#player{
+    display: inline-block;
+    width: 90%;
+    font-size: 0.15rem;
+}
+#choices{
+    padding: 0.5%;    
+    font-size: 1.15rem;     
+}
+p{
+	color: #E90A0A;
+}
+

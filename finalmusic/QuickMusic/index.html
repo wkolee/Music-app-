@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width
+			initial-scale=1
+			minimum-scale=1
+			maximum-scale=1
+			user-scalable=no">
+		<title>Quick Music app</title>
+		<link rel="stylesheet" href="normalize.css">        
+		<link rel="stylesheet" href="style.css">
+        <script src="prefixfree.js"></script>        
+		<script src="songs.js"></script>
+	</head>
+	<body id='tb'>
+		<div id="holder">
+			<div id="app">
+                <div id="controlsFrame">
+                    <div id="controls">
+                        <br>
+                        <div><div><p></p></div><audio id="player" controls></audio></div>
+                        <div>
+                            <select id="choices">
+                               <option>Select A Song</option>
+                                <option>Billie Jean</option>
+                                <option>Litty</option>
+                                <option>offended</option>
+                                <option>No Flockin</option>
+                                <option>Can't help falling in love</option>
+                                <option>Lean on me</option>
+                                <option>when a man loves a woman</option>
+                                <option>Tenderness</option>
+                                <option>Major</option>
+                                <option>bucky raw</option>
+                              
+                            </select>
+                        </div>
+                        <div id="songTitle"></div>
+                        <!---<button style="float: left" playTheSong()>BACK</button><button style="float: right">BACK</button>-->
+                    </div><!-- END of controls -->                
+                </div><!-- END of controlsFrame -->  
+				<div id="pictureFrame"></div>			
+			</div><!-- END of app -->
+		</div><!-- END of holder -->
+	<script>
+		//just testing:
+		//alert(songs[3].song);
+		//alert(songs[3].picture);
+	</script>
+	<script src="script.js"></script>
+	</body>
+</html>
